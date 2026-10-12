@@ -50,7 +50,7 @@ def get_engine():
         engine = create_engine(SQLITE_FALLBACK_URL, connect_args={"check_same_thread": False})
         is_postgres_active = False
     return engine
-
+#hola
 def get_session():
     global SessionLocal
     eng = get_engine()
